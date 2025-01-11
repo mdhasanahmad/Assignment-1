@@ -19,6 +19,7 @@ h3{
     font-size: 32px;
    font-weight: bold;
     color: #0E0E0E;
+    padding-top: 15px;
 
 
 }
@@ -295,15 +296,20 @@ span{
 
 }
 
-/* .quote-icon {
-    font-size: 160px;
-    color: #494343;
+.quote-card .quote-icon {
     position: absolute;
     top: 0px;
+    left:30px;
+    bottom: 60px;
+    width: 70px; /* Adjust size as needed */
+    height: 70px; /* Adjust size as needed */
+    background-image: url('../B11A1--assignment-1/assets/quote-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 1;
+}
 
-    left: 5px;
-    background:none;
-} */
 .quote-icon {
     font-size: 100px;
     color: #333; /* Adjust color if needed */
