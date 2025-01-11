@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');  /* Here we are importing the font from google fonts. */
 
 
 
@@ -7,7 +7,7 @@
     padding: 0;
     background-color:#c5c2c2;
 }
- /* Here we first create the navbar sectiion and then we create the h3 tag and then we create the button tag. */
+ /* Here we first create the navbar section and then we create the h3 tag and then we create the button tag. */
 .nav-1{
     display: flex;
     padding: 24px 162px;
@@ -42,6 +42,8 @@ h3{
     background-color: #006A50;
     color: #fff;
 }
+/* Here we start the main section in that we has created 8 section. */
+/* now we start the first section . in the first section we create  responsive web section containing two components: a text block and an image block, arranged side-by-side using Flexbox. The design incorporates structured headings, a button, and an image with visual enhancements such as padding, background color, box shadows, and border-radius to ensure a visually appealing and user-friendly layout*/
 
 .section-1 {
     display: flex;
@@ -117,7 +119,7 @@ span{
     background-color: #d4f1df;
 }
 
-
+/* Here we start the second section. In the second section we create a section titled "Pillars of Bangladesh 2.0," showcasing four cards representing key concepts (Innovation, Sustainability, Infrastructure, Empowerment). Each card includes an icon, title, and descriptive text, styled with Flexbox for alignment, hover effects, and responsive design elements*/
 .section-2 {
     text-align: center;
     padding: 50px;
@@ -175,6 +177,8 @@ span{
     text-align: left;
 
 }
+
+
 
 .section-3 {
     max-width: 1200px;
@@ -239,6 +243,10 @@ span{
     margin-bottom: 15px;
     background: #d1cdcd;
     margin-right: 80px;
+}
+.new-h3{
+    padding-left: 0px;
+    padding-right: 70px;
 }
 
 .block p {
